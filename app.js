@@ -85,7 +85,7 @@
 //     titleCasedInput += words[i].charAt(0).toUpperCase() + words[i].slice(1).toLowerCase() + " ";
 // }
 
-// titleCasedInput = titleCasedInput.trim();
+// titleCasedInput = titleCasedInput;
 
 // alert("Input in title case: " + titleCasedInput);
 
@@ -96,7 +96,7 @@
 // var numString = num + "";
 // var result = numString.replace('.', '');
 
-// console.log("Number: " + num + " To " + "Result: " + result);
+// alert("Number: " + num + " To " + "Result: " + result);
 
 
 // Question :13
@@ -108,7 +108,6 @@
 // for (var i = 0; i < invalidChars.length; i++) {
 //     if (username.includes(invalidChars[i])) {
 //         alert("Please enter a valid username");
-
 //         username = prompt("Enter a valid username:");
 //         i = -1; 
 //     }
@@ -120,12 +119,12 @@
 // Question :14
 
 
-// var A = ["cake", "apple pie", "cookie", "chips", "patties"];
+// var list = ["cake", "apple pie", "cookie", "chips", "patties"];
 // var userInput = prompt("Welcome to our Bakery. What do you want to order Sir / Ma'am");
 // var found = false;
 
 // for (var i = 0; i < A.length; i++) {
-//     if (A[i].toLowerCase() === userInput.toLowerCase()) {
+//     if (list[i].toLowerCase() === userInput.toLowerCase()) {
 //         found = true;
 //         break;
 //     }
