@@ -78,11 +78,11 @@
 
 // var userInput = prompt("Enter some text:");
 
-// var words = userInput.split(' '); 
-// var titleCasedInput = ""; 
+// var words = userInput.split(' ');
+// var titleCasedInput = "";
 
 // for (var i = 0; i < words.length; i++) {
-//     titleCasedInput += words[i].charAt(0).toUpperCase() + words[i].slice(1).toLowerCase() + " ";
+//     titleCasedInput = words[i].charAt(0).toUpperCase() + words[i].slice(1).toLowerCase() + " ";
 // }
 
 // titleCasedInput = titleCasedInput;
@@ -92,11 +92,12 @@
 
 // Question :12
 
-// var num = 35.36;
-// var numString = num + "";
-// var result = numString.replace('.', '');
+// var num = 35.63;
+// var stringWithoutPoint = num.toString().replace('.', '');
 
-// alert("Number: " + num + " To " + "Result: " + result);
+// alert("Result: " + stringWithoutPoint);
+
+
 
 
 // Question :13
@@ -109,7 +110,6 @@
 //     if (username.includes(invalidChars[i])) {
 //         alert("Please enter a valid username");
 //         username = prompt("Enter a valid username:");
-//         i = -1; 
 //     }
 // }
 
@@ -123,7 +123,7 @@
 // var userInput = prompt("Welcome to our Bakery. What do you want to order Sir / Ma'am");
 // var found = false;
 
-// for (var i = 0; i < A.length; i++) {
+// for (var i = 0; i < list.length; i++) {
 //     if (list[i].toLowerCase() === userInput.toLowerCase()) {
 //         found = true;
 //         break;
@@ -142,7 +142,7 @@
 
 
 // var password = prompt("Enter your password:");
-// var hasLetter = /[a-zA-Z]/.test(password); 
+// var hasLetter = /[a-zA-Z]/.test(password);
 // var hasNumber = /[0-9]/.test(password);
 // var startsWithNumber = /^[0-9]/.test(password);
 // var isLongEnough = password.length >= 6;
@@ -194,4 +194,4 @@
 // var sentence = "The quick brown fox jumps over the lazy dog";
 // var count = (sentence.match(/the/gi) || []).length;
 
-// alert("The word 'the' occurs " + count + " times in the given sentence.");
+// alert("The word 'the' occurs " + count + " times in the given sentence: " + sentence);
